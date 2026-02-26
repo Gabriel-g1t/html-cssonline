@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgs/fotopmg-p.png" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>tente abrir este site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    
+    <picture> 
+        <source media="(max-width: 750px)" srcset="imgs/fotopmg-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/fotopmg-m.png" type="image/png">
+        <img src="imgs/fotopmg-g.png" alt="flexivel">
+    </picture>
+
+    <h1>selecionando audio</h1>
+    <p>selecionando meu primeiro audio em HTML5</p>
+    <audio src="midia/Into the Depths (Sting) - Jingle Punks.mp3" controls autoplay></audio>
+
+   <p><audio preload="metadata" autoplay controls>
+        <source src="midia/WhatsApp Ptt 2024-12-25 at 16.02.48.ogg" type="audio/mpeg">
+        <source src="midia/WhatsApp Ptt 2024-12-25 at 16.02.48.ogg" type="audio/ogg">
+        <source src="midia/WhatsApp Ptt 2024-12-25 at 16.02.48.ogg" type="audio/wav">
+        <p>infelizmente seu computador nao consegue reproduzir audio <a href="midia/WhatsApp Ptt 2024-12-25 at 16.02.48.ogg">Clicke aqui para baixar o arquivo mp3</a></p>
+    </audio></p> 
+    
+</body>
+</html>
